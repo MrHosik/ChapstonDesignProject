@@ -2,9 +2,32 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![OrdroidM1](https://img.shields.io/badge/SBC-OrdroidM1-red)
 
+
+# System Architecture
+<img width="692" height="215" alt="Image" src="https://github.com/user-attachments/assets/4d5d6770-f0e4-43ac-bdd5-05ff130c1931" />
+
 # Overview
 - Traditional sleep monitoring systems often require users to wear uncomfortable wearable devices or install cameras in private spaces. To address these limitations, this project proposes a non-intrusive sleep monitoring system based on textile pressure sensors and deep learning.
 - The textile pressure sensor mat is placed underneath the user without causing discomfort. Pressure distribution data are analyzed using a deep learning model to classify sleeping postures. In addition, a separate pressure sensor measures respiratory rate and heart rate simultaneously. All monitored information is displayed in real time through a GUI running on a Single Board Computer (SBC).
+
+## Features
+- Non-intrusive sleep monitoring
+- Textile pressure sensor-based posture recognition
+- Deep learning-based sleep posture classification
+- Respiratory rate monitoring
+- Heart rate monitoring
+- Real-time GUI visualization
+- SBC-based edge computing
+- 
+## Hardware Setup
+
+| Component | Description |
+|------------|------------|
+| Textile Pressure Sensor | Sleep posture acquisition |
+| Pressure Sensor | Heart rate and respiratory rate measurement |
+| SBC | Data processing and GUI |
+| Mattress | Sensor placement environment |
+
 # Development Environment
 ## Pressure Sensors</br>
 <img width="271" height="223" alt="Image" src="https://github.com/user-attachments/assets/6e7542ae-13f9-4a27-8359-eddf2f469be2" />
@@ -13,9 +36,6 @@
 ## Hardware 
 <img width="271" height="257" alt="Image" src="https://github.com/user-attachments/assets/aeef74f4-a50a-4735-8524-9789ed8d8d11" />
 <img width="243" height="185" alt="Image" src="https://github.com/user-attachments/assets/6ac3ec14-6ead-44e1-b6ce-c9c14fdbc817" /></br>
-
-# System Architecture
-<img width="692" height="215" alt="Image" src="https://github.com/user-attachments/assets/4d5d6770-f0e4-43ac-bdd5-05ff130c1931" />
 
 # Sleep Postures
 <img width="162" height="197" alt="Image" src="https://github.com/user-attachments/assets/19cf2bfe-1986-44ee-ac76-44a07c9b9b8f" />
@@ -38,8 +58,32 @@
 
 <img width="162" height="199" alt="Image" src="https://github.com/user-attachments/assets/d0314141-2e11-4a08-8b84-170f0b89b1fc" />
 
+The model classifies ten sleeping postures:
+1. Nothing(아무것도 없는 상황)
+2. leftsupine(왼쪽으로 눕는 자세)
+3. leftprone(왼쪽으로 엎드리는 자세)
+4. rightsupine(오른쪽으로 눕는 자세)
+6. rightprone(오른쪽으로 엎드리는 자세)
+7. supine(정자세로 눕는 자세)
+8. Xsupine(팔짱 끼고 눕는 자세)
+9. prone(오나전히 엎드린 자세)
+10. Pprone(엎드려서 핸드폰 하는 자세)
+11. Psupine(누워서 핸드폰 하는 자세)
+
 # DeepLearning Architecture
 <img width="866" height="288" alt="Image" src="https://github.com/user-attachments/assets/768511ac-65fa-4182-8715-1d94d44be006" />
 
-# GUI example
+<img width="666" height="600" alt="Image" src="https://github.com/user-attachments/assets/ccb560fc-04f9-471b-97b4-ed0e5356b481" />
+
+# GUI
 <img width="431" height="267" alt="Image" src="https://github.com/user-attachments/assets/500c2a90-412c-46c6-93b4-58b313fb2680" />
+
+
+The GUI displays:
+
+- Current sleep posture
+- Heart rate (BPM)
+- Respiratory rate (RPM)
+- Sleep Duration by Posture
+- Total Sleep Time(TST)
+- Awake Time
