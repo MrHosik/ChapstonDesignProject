@@ -1,10 +1,10 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
-![Raspberry Pi](https://img.shields.io/badge/SBC-RaspberryPi-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+![OrdroidM1](https://img.shields.io/badge/SBC-OrdroidM1-red)
 
-# Introduction
-- This project aims to overcome the limitations of conventional sleep monitoring methods that rely on wearable devices or cameras by utilizing textile pressure sensors and deep learning to identify a user's sleeping posture during sleep and perform sleep monitoring. In addition, a separate pressure sensor was utilized to simultaneously measure the user's respiratory rate and heart rate.
+# Overview
+- Traditional sleep monitoring systems often require users to wear uncomfortable wearable devices or install cameras in private spaces. To address these limitations, this project proposes a non-intrusive sleep monitoring system based on textile pressure sensors and deep learning.
+- The textile pressure sensor mat is placed underneath the user without causing discomfort. Pressure distribution data are analyzed using a deep learning model to classify sleeping postures. In addition, a separate pressure sensor measures respiratory rate and heart rate simultaneously. All monitored information is displayed in real time through a GUI running on a Single Board Computer (SBC).
 # Development Environment
 ## Pressure Sensors</br>
 <img width="271" height="223" alt="Image" src="https://github.com/user-attachments/assets/6e7542ae-13f9-4a27-8359-eddf2f469be2" />
