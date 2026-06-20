@@ -33,3 +33,5 @@
 
 <img width="162" height="199" alt="Image" src="https://github.com/user-attachments/assets/d0314141-2e11-4a08-8b84-170f0b89b1fc" />
 
+# DeepLearning Architecture
+<img width="866" height="288" alt="Image" src="https://github.com/user-attachments/assets/768511ac-65fa-4182-8715-1d94d44be006" />
