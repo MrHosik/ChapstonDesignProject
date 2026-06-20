@@ -35,3 +35,6 @@
 
 # DeepLearning Architecture
 <img width="866" height="288" alt="Image" src="https://github.com/user-attachments/assets/768511ac-65fa-4182-8715-1d94d44be006" />
+
+# GUI example
+<img width="431" height="267" alt="Image" src="https://github.com/user-attachments/assets/500c2a90-412c-46c6-93b4-58b313fb2680" />
